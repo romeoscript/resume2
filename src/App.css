@@ -9,12 +9,17 @@
     --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
     --orangeCard: rgba(252, 166, 31, 0.45);
     --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+   
 }
 
 .App{
     padding: 0.5rem 3.5rem;
     overflow: hidden;
     color: var(--black);    
+    /* background: url(./img/bg\ \(1\).png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center; */
 }
 
 .button {
@@ -33,10 +38,19 @@
     border: 1px solid var(--orange);
     color: var(--orange);
   }
+  .port2{
+    display: none;
+  }
   @media screen and (max-width: 480px) {
     .App {
       padding: 0.5rem 1rem;
 
+    }
+    .port1{
+      display: none;
+    }
+    .port2{
+      display: block;
     }
   }
 

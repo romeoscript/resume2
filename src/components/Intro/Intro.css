@@ -2,6 +2,7 @@
   display: flex;
   height: 77vh;
   margin-top: 6rem;
+
 }
 
 /* left side styling */
@@ -113,5 +114,12 @@
   .floating-div:nth-of-type(1){
     /* display: none; */
     top: -7rem !important;;
+  }
+  .i-right > :nth-child(4) {
+    transform: scale(0.62);
+    top: -19%;
+    left: -10%;
+    border-radius: 50%;
+    padding: 0;
   }
 }

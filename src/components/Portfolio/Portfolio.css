@@ -6,6 +6,13 @@
   height: 70vh;
 
 }
+@media (max-width:550px) {
+  .portfolio {
+   
+    height: auto;
+  
+  }
+}
 /* heading */
 .portfolio span:nth-of-type(1) {
   color: var(--black);

@@ -51,8 +51,8 @@ const Intro = () => {
         <img className='boyimage' src={boy} alt="" />
         {/* animation */}
          <motion.div
-          initial={{ left: "-36%",fontSize:'150px' }}
-          whileInView={{ left: "-24%" }}
+          initial={{ fontSize:'150px' }}
+         
           transition={transition}
          >
          👋
